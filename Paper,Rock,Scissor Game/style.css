@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Inline&family=Press+Start+2P&display=swap');
+
+*{ 
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+    font-size:17px;
+    color:white;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+body
+{
+    background:url('https://images.unsplash.com/photo-1630088612853-58ddda1c4856?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=386&q=80;'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    padding-top:30px;
+    font-size:3rem;
+    font-family: 'Bungee Inline', cursive;
+    line-height:5vh;
+}
+
+h3
+{
+    font-size:2rem;
+    font-family:'Bebas Neue', cursive;  
+}
+
+.heading p
+{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(255, 0, 0);
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    font-size:20px;
+    
+}
+
+.heading h2, .heading h3
+{
+    text-shadow: 0 0 1rem#0e0d0c;
+}
+
+.keys
+{
+    display: flex;
+    justify-content: center;
+}
+
+.key
+{
+    margin:30px;
+    border: .4rem solid black;
+    transition: all .09s ease;
+    text-shadow: 0 0 .5rem black;
+    display: flex;
+    flex-direction:column;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7));
+    padding:5px;
+    height:100px;
+    width:100px;
+    text-align: center;
+}
+
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 2rem;
+  }
+  
+.display_score
+{
+    display: flex;
+    justify-content: center;
+}
+
+#score, #notice
+{
+    margin: 0 20px;
+    font-size:30px;
+    font-family:'Bebas Neue', cursive; 
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.3rem rgb(0, 0, 0);
+}
+
+p
+{
+    font-size: 25px;
+    color:pink;
+}
+
+.fight
+{
+    display: flex;
+    justify-content: center;
+}
+
+.fight > div
+{
+    margin:0 20px;
+    padding:30px;
+    text-align: center;
+    
+}
+
+#showkey, #enemy
+{
+    font-family:'Press Start 2P', cursive;
+    color:white;
+    font-size:35px;
+    
+}
+
+.versus
+{
+    color:rgb(255, 255, 255);
+    font-size:50px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#result
+{
+    font-family: 'Press Start 2P', cursive;
+    font-size:50px;
+    color:red;
+    text-shadow: 1 1 1px black;
+}

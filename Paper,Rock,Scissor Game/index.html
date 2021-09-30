@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="heading">
+        <center>
+            <h2>Rock-Paper-Scissor game.</h2>
+            <h3>Choice your character:</h3>
+            <p>*press your choice key in your keyboard</p>
+        </center>
+    </div>
+    <div class="keys">
+        <div data-key="90" class="key card">
+            <kbd>Z</kbd>
+            <i class="far fa-hand-spock"></i>
+            <span class="image">paper</span>
+        </div> 
+        <div data-key="88" class="key card">
+            <kbd>X</kbd>
+            <i class="far fa-hand-scissors"></i>
+            <span class="image">scissor</span>
+        </div> 
+        <div data-key="67" class="key card">
+            <kbd>C</kbd>
+            <i class="far fa-hand-rock"></i>
+            <span class="image">rock</span>
+        </div> 
+
+        <img data-key = "90" src=""/>
+        <img data-key = "88" src=""/>
+        <img data-key = "67" src=""/>
+   </div>
+
+   <div class="display_score">
+    
+    <h1 id = score> Your current score:</h1>
+    <h1 id = notice>Number of tries left:</h1>
+   </div>
+   <br>
+   <div class="fight">
+        <div class="player">
+            <h3>PLAYER</h3>
+             <p id= showkey>----</p>
+        </div> 
+        <h2 class="versus">V.S.</h2>   
+        <div class="enemy">
+            <h3>ENEMY</h3>
+            <p id= enemy>----</p>
+        </div>
+   </div>
+  
+   <center>
+   <h1 id = result>----</h1>
+    </center>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/2cbd9951c0.js" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

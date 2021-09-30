@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&family=Rampart+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+
+
+p{
+    color:red;
+    font-size:20px;
+}
+
+
+#label{ 
+    font-size:30px;
+    font-family:'Rampart One', cursive; 
+    padding-top:100px;
+}
+
+h4
+{
+    font-size:20px;
+    font-family: 'Rampart One', cursive;
+    color:rgb(10, 10, 63);
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+}
+
+.container 
+{
+    padding-top:50px;
+}
+
+#myChar{
+    font-size:120px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin:30px;
+}
+
+h2 {
+    font-size:40px;
+    font-family: 'Press Start 2P',cursive;
+}
+
+@media screen and (max-width:800px){
+
+    body{
+     display: block;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    #myChar{
+        font-size:30px;
+    }
+    
+    .container-card{
+        flex-direction:column;
+    }
+    
+    }
