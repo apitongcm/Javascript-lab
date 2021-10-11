@@ -7,9 +7,91 @@
 
 .main
 {
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
 }
 
+/* HEADER */
+/* navbar and heading */
+.header
+{
+    background:linear-gradient(rgba(255,0,255, 0.6),rgba(255,0,255,0.4));
+    padding-bottom:30px;
+}
+
+.navbar-menu
+{
+    display: grid;
+    grid-template-columns:50% 10% 40%;
+    margin-top:20px;
+}
+
+.navbar-link
+{
+    list-style-type:none;
+    margin:10px 15px;
+}
+
+.navbar-link a
+{
+    color:white;
+}
+
+.navbar-left
+{
+    display: flex;
+}
+
+.navbar-right
+{   
+  display: flex;   
+}
+
+.header-wrapper
+{
+    display:grid;
+    grid-template-columns:40% 50% 10%;
+}
+
+.header-logo
+{
+    display: flex;
+}
+
+.header-logo img
+{
+    border-radius:50%;
+    margin-right:30px;
+}
+
+.header-text h3
+{
+    line-height:10px;
+}
+
+.menu-search
+{
+    height:50%;
+    margin:auto 0;
+    display: flex;
+    margin-left:50px;
+    padding:10px;
+    background-color: rgba(0,255,255,0.5);
+}
+
+.menu-search input
+{
+    border-style: none;
+    margin:0 20px;
+}
+
+.nav-cart
+{
+    height:50%;
+    margin:auto 0;
+    margin-left:30px;
+}
+
+/* card */
 .card
 {
     background-color: white;
