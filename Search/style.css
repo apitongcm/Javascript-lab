@@ -44,11 +44,18 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
-.employees-text
+.employees-card h5
 {
-    color:rgb(255, 255, 255);
+    padding:0 20px;
 }
+
+.employees-card h4
+{
+    color:rgb(88, 10, 75);
+    text-align: right;
+    padding-right:10px;
+}
+
 
 .employees-image
 {
@@ -56,10 +63,26 @@
     height: 300px;
 }
 
-/* @media only screen and (max-width:770px) and (min-width:427px) {
+ @media only screen and (max-width:770px) and (min-width:427px) {
     .card
     {
         grid-template-columns:50% 50%;
+    }
+
+    .header img
+    {
+        width:100%;
+        margin:0 auto;
+    }
+
+    .header h2
+    {
+        font-size:60px;
+    }
+
+    .header p 
+    {
+        font-size:30px;
     }
 }
 
@@ -74,5 +97,12 @@
         display:grid;
         grid-template-columns:100%;
     }
+
+    .header img
+    {
+        width:100%;
+        margin:0 auto;
+    }
+
     
-} */
+} 
